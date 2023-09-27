@@ -11,7 +11,7 @@ Cross-platform library of utilities for working with the console.
 * [x] Windows
 * [x] Linux
 * [x] MacOS
-* [ ] Termux
+* [x] Termux
 * [ ] FreeBSD
 * [ ] OpenBSD
 * [ ] AIX

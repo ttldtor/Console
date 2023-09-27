@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.20)
 project(console)
 include(GNUInstallDirs)
 
-set(TTLDTOR_CONSOLE "v1.0.0" CACHE STRING "The Console package version")
+set(TTLDTOR_CONSOLE "v1.0.1" CACHE STRING "The Console package version")
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_C_STANDARD 11)

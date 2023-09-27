@@ -39,7 +39,7 @@ struct TTLDTOR_CONSOLE_EXPORT Console {
      * Returns the width and height of the current console.
      * @return The width and height of the current console.
      */
-    static std::pair<std::size_t, size_t> getSize() noexcept;
+    static std::pair<std::size_t, std::size_t> getSize() noexcept;
 };
 
 } // namespace console

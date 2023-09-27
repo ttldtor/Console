@@ -10,7 +10,7 @@ namespace org {
 namespace ttldtor {
 namespace console {
 
-std::pair<std::size_t, size_t> Console::getSize() noexcept {
+std::pair<std::size_t, std::size_t> Console::getSize() noexcept {
     CONSOLE_SCREEN_BUFFER_INFO consoleScreenBufferInfo{};
     std::size_t columns{}, rows{};
 
@@ -35,7 +35,7 @@ namespace org {
 namespace ttldtor {
 namespace console {
 
-std::pair<std::size_t, size_t> Console::getSize() noexcept {
+std::pair<std::size_t, std::size_t> Console::getSize() noexcept {
 #    if defined(__APPLE__)
     auto ttyFileDescriptor = open("/dev/tty", O_EVTONLY | O_NONBLOCK);
 #    else
@@ -69,7 +69,7 @@ namespace org {
 namespace ttldtor {
 namespace console {
 
-std::pair<std::size_t, size_t> Console::getSize() noexcept {
+std::pair<std::size_t, std::size_t> Console::getSize() noexcept {
     return {80, 25};
 }
 
